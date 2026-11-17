@@ -1,15 +1,20 @@
 # Student Grade Management System
 
-A Python-based application for managing student grades.
+A command-line Python exercise for adding, updating, deleting, and viewing student grades.
 
-## Features
-- Add Student Records
-- Update Grades
-- View Student Details
-- Calculate Average Grades
+## Run
+Requires Python 3. No third-party packages are needed.
 
-## Technologies Used
-- Python
+```bash
+python project.py
+```
 
-## Author
-Ayaan Ali
+## Menu
+1. Add a student and grade
+2. Update a student's grade
+3. Delete a student
+4. Display all students
+5. Exit
+
+## Storage
+Records are kept in an in-memory dictionary and are cleared when the program exits.
